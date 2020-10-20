@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12bb9170c39702bd147a7b3582e7ea06",
+    "content-hash": "f4193e6d4af185da2df7d1db91e11b1e",
     "packages": [
         {
-            "name": "tarohida/sample",
-            "version": "dev-master",
+            "name": "tarohida/tarohida",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tarohida/sample.git",
-                "reference": "5442b3a2eaa5d2e7025dcdbc9f5726914353e103"
+                "url": "https://github.com/tarohida/composer_publish_lib.git",
+                "reference": "f15f171308743ed6de9b6a02157c999ed8170091"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tarohida/sample/zipball/5442b3a2eaa5d2e7025dcdbc9f5726914353e103",
-                "reference": "5442b3a2eaa5d2e7025dcdbc9f5726914353e103",
+                "url": "https://api.github.com/repos/tarohida/composer_publish_lib/zipball/f15f171308743ed6de9b6a02157c999ed8170091",
+                "reference": "f15f171308743ed6de9b6a02157c999ed8170091",
                 "shasum": ""
             },
             "require-dev": {
@@ -26,7 +26,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Tarohida\\Sample\\": "src/Tarohida/Sample/"
+                    "Tarohida\\Tarohida\\": "src/Tarohida/Tarohida/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -40,18 +40,18 @@
                 }
             ],
             "description": "composer publish test",
-            "homepage": "https://github.com/tarohida/sample",
+            "homepage": "https://github.com/tarohida/composer_publish_lib",
             "keywords": [
                 "sample"
             ],
-            "time": "2020-10-20T06:48:43+00:00"
+            "time": "2020-10-20T07:16:38+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "tarohida/sample": 20
+        "tarohida/tarohida": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
