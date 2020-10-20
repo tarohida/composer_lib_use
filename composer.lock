@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "12bb9170c39702bd147a7b3582e7ea06",
+    "packages": [
+        {
+            "name": "tarohida/sample",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tarohida/sample.git",
+                "reference": "5442b3a2eaa5d2e7025dcdbc9f5726914353e103"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tarohida/sample/zipball/5442b3a2eaa5d2e7025dcdbc9f5726914353e103",
+                "reference": "5442b3a2eaa5d2e7025dcdbc9f5726914353e103",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tarohida\\Sample\\": "src/Tarohida/Sample/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taro Hida",
+                    "email": "sk8trou@gmail.com"
+                }
+            ],
+            "description": "composer publish test",
+            "homepage": "https://github.com/tarohida/sample",
+            "keywords": [
+                "sample"
+            ],
+            "time": "2020-10-20T06:48:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "tarohida/sample": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
